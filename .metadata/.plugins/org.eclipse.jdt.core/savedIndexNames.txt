@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+C:\DAM 20-21\Acceso A Datos\07 Patrones Diseño\proyectos clase 2324\.metadata\.plugins\org.eclipse.jdt.core
+796574143.index
+960943823.index

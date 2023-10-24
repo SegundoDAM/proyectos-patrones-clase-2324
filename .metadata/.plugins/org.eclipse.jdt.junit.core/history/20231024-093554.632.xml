@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ClienteTest" project="02 Factory Method" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="diagramaClase01.ClienteTest" time="0.0" displayname="ClienteTest" uniqueid="[engine:junit-jupiter]/[class:diagramaClase01.ClienteTest]">
+    <testcase name="test" classname="diagramaClase01.ClienteTest" time="0.0" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:diagramaClase01.ClienteTest]/[method:test()]"/>
+  </testsuite>
+</testrun>

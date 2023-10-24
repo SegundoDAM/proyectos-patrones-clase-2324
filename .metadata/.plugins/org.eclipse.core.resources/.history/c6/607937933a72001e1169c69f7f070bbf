@@ -1,0 +1,15 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SingletonTest {
+
+	@Test
+	void test() {
+		Singleton uno=Singleton.getINSTANCIA();
+		uno.setCosa(7);
+		Singleton dos=Singleton.getINSTANCIA();
+		System.out.println(dos.getCosa());
+	}
+
+}

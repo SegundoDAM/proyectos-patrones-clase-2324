@@ -1,0 +1,11 @@
+package diagramaClase01;
+
+public class ProductoConcretoDos implements Product {
+
+	@Override
+	public void greet() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

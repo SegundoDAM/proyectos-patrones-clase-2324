@@ -1,0 +1,11 @@
+package diagramaClase01;
+
+public class CreatorConcreteUno extends Creator {
+
+	@Override
+	public void factoryMethod() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
