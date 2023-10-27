@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Singleton"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="SingletonPerrezoso"/>
+<fullyQualifiedTypeName name="ptoblema00.ProductoA"/>
+<fullyQualifiedTypeName name="ptoblema00.ProductoB"/>
+<fullyQualifiedTypeName name="ptoblema00.ProductoC"/>
+<fullyQualifiedTypeName name="ptoblema00.Controller"/>
+<fullyQualifiedTypeName name="diagramaClase01.ProductoConcretoUno"/>
+<fullyQualifiedTypeName name="diagramaClase01.Creator"/>
+<fullyQualifiedTypeName name="diagramaClase01.Product"/>
+<fullyQualifiedTypeName name="diagramaClase01.CreatorConcreteUno"/>
+<fullyQualifiedTypeName name="diagramaClase01.ProductoConcretoDos"/>
+<fullyQualifiedTypeName name="diagramaClase01.CreadorConcreteDos"/>
+</qualifiedTypeNameHistroy>
