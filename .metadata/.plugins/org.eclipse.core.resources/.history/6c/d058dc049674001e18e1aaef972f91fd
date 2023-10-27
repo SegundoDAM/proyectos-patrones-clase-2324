@@ -1,0 +1,13 @@
+package maze06;
+
+import maze06.products.Side;
+
+public class WallCreator implements CreatorAbstract {
+
+	@Override
+	public Side factoryMethod() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

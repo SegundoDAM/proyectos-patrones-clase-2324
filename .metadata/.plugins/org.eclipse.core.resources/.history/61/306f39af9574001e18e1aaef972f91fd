@@ -1,0 +1,5 @@
+package maze06;
+
+public interface CreatorAbstract {
+	public Side factoryMethod();
+}

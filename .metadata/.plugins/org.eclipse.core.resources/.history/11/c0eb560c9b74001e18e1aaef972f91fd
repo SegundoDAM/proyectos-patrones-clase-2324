@@ -1,0 +1,12 @@
+package maze06;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import maze06.products.Side;
+
+public class Room {
+	private final int size = 4;
+	private HashMap<Polar, Side> sides = new HashMap<>(size);
+	
+}

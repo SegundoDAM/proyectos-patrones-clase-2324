@@ -1,0 +1,5 @@
+package maze06;
+
+public enum Polar {
+
+}

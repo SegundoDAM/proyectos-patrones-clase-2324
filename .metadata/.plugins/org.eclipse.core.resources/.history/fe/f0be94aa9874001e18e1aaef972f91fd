@@ -1,0 +1,14 @@
+package maze06;
+
+import java.util.Arrays;
+import java.util.List;
+
+public enum Polar {
+	North,East,South,West;
+	
+	public static Polar getOppositePolar(Polar polar) {
+		List<Polar> asList = Arrays.asList(Polar.values());
+		int index = (asList.indexOf(polar)+2)%4;
+		return  asList.get(index);
+	}
+}
