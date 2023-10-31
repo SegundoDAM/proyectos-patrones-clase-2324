@@ -1,5 +1,0 @@
-package diagramaClase01;
-
-public class ProductoConcretoUno implements Product {
-
-}

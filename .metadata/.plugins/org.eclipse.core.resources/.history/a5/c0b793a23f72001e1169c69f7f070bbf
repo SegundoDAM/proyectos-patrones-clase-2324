@@ -1,6 +1,0 @@
-package diagramaClase01;
-
-public abstract class Creator {
-	Product producto;
-	public abstract void factoryMethod();
-}
