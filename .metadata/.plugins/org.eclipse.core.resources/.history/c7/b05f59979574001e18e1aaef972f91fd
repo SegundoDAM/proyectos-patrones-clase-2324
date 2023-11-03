@@ -1,5 +1,0 @@
-package maze06;
-
-public interface CreatorAbstract {
-
-}

@@ -35,6 +35,21 @@
 <fullyQualifiedTypeName name="banco02.client.Client"/>
 <fullyQualifiedTypeName name="banco02.ConcreteFactoryYoung"/>
 <fullyQualifiedTypeName name="banco02.AbstractProductAccount"/>
-<fullyQualifiedTypeName name="ejercicio03.product.Location"/>
 <fullyQualifiedTypeName name="banco02.Showable"/>
+<fullyQualifiedTypeName name="ejercicio03.product.Location"/>
+<fullyQualifiedTypeName name="ejercicio03Solucion.product.SedanCar"/>
+<fullyQualifiedTypeName name="ejercicio03Solucion.product.SmallCar"/>
+<fullyQualifiedTypeName name="ejercicio03Solucion.product.Car"/>
+<fullyQualifiedTypeName name="ejercicio03Solucion.product.LuxuryCar"/>
+<fullyQualifiedTypeName name="ejercicio03Solucion.product.Location"/>
+<fullyQualifiedTypeName name="java.util.function.Function"/>
+<fullyQualifiedTypeName name="ejercicio04.factory.FactoryBike"/>
+<fullyQualifiedTypeName name="ejercicio04.product.Car"/>
+<fullyQualifiedTypeName name="ejercicio04.product.LuxuryCar"/>
+<fullyQualifiedTypeName name="ejercicio04.product.Location"/>
+<fullyQualifiedTypeName name="teoria.Builder"/>
+<fullyQualifiedTypeName name="teoria.Persona"/>
+<fullyQualifiedTypeName name="teoria.Director"/>
+<fullyQualifiedTypeName name="teoria.ConcreteBuilderPersona"/>
+<fullyQualifiedTypeName name="implementacion.Persona"/>
 </qualifiedTypeNameHistroy>

@@ -546,7 +546,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="mega-menu-submenu-ad-wrapper">
             <div
-              class="eclipsefdn-promo-content mega-menu-promo-content"
+              class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
               data-ad-format="ads_square"
               data-ad-publish-to="eclipse_org_home"
             >
@@ -605,7 +605,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="mega-menu-submenu-ad-wrapper">
             <div
-              class="eclipsefdn-promo-content mega-menu-promo-content"
+              class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
               data-ad-format="ads_square"
               data-ad-publish-to="eclipse_org_home"
             >
@@ -660,7 +660,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="mega-menu-submenu-ad-wrapper">
             <div
-              class="eclipsefdn-promo-content mega-menu-promo-content"
+              class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
               data-ad-format="ads_square"
               data-ad-publish-to="eclipse_org_home"
             >
@@ -733,7 +733,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="mega-menu-submenu-ad-wrapper">
             <div
-              class="eclipsefdn-promo-content mega-menu-promo-content"
+              class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
               data-ad-format="ads_square"
               data-ad-publish-to="eclipse_org_home"
             >
@@ -809,7 +809,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="mega-menu-submenu-ad-wrapper">
             <div
-              class="eclipsefdn-promo-content mega-menu-promo-content"
+              class="eclipsefdn-mega-menu-promo-content mega-menu-promo-content"
               data-ad-format="ads_square"
               data-ad-publish-to="eclipse_org_home"
             >
@@ -940,14 +940,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/mofscript.tgz" alt="Mofscript archive" >Mofscript</a> project. Archived: November 2012.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/mst.tgz" alt="MST archive" >MDT MST</a> project. Archived: November 2012.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/mtf.tgz" alt="MTF archive" >MTF</a> project. Archived: November 2012.</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/mtj.tgz" alt="MTJ archive" >MTJ</a> project. Archived: October 2023.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/mxf.tgz" alt="MXF archive" >MXF</a> project. Archived: November 2012.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/nab.tgz" alt="DSDP Nab Archive" >DSDP Nab</a> project. Archived: October 2010.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/emf4net.tgz" alt="EMF4Net archive" >EMF4Net</a> project. Archived: January 2015.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/net4j.tgz" alt="Net4J archive" >Net4J</a> project. Archived: June 2010.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/ohf.tgz">OHF</a> project.  Archived: January 2012</p>
         <p><a href="http://archive.eclipse.org/archived_projects/ofmp.tgz">OFMP</a> project.  Archived: January 2012</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/ogee.tgz">OGEE</a> project.  Archived: October 2023</p>
         <p><a href="http://archive.eclipse.org/archived_projects/omelet-project.tar.gz">OMELET</a> project.  Archived: August 2005</p>
         <p><a href="http://archive.eclipse.org/archived_projects/openk-platform.tgz">Openk-platform</a> project.  Archived: November 2021</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/orion.tgz">Orion</a> project.  Archived: October 2023</p>
         <p><a href="http://archive.eclipse.org/archived_projects/ormf.tgz">Ormf</a> project.  Archived: January 2011</p>
         <p><a href="http://archive.eclipse.org/archived_projects/package-drone.tgz">Package-drone</a> project.  Archived: March 2021</p>
         <p><a href="http://archive.eclipse.org/archived_projects/papyrus-xtuml.tgz">Papyrus-xtuml</a> project.  Archived: September 2019</p>
@@ -966,6 +969,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/remus.tgz">Remus</a> project.  Archived: May 2020</p>
         <p><a href="http://archive.eclipse.org/archived_projects/risev2g.tgz">Risev2g</a> project.  Archived: January 2019</p>
         <p><a href="http://archive.eclipse.org/archived_projects/rtp.tgz">Packaging RTP</a> project.  Archived: March 2021</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/rtsc.tgz">Packaging RTSC/a> project.  Archived: October 2023</p>
         <p><a href="http://archive.eclipse.org/archived_projects/sapphire.tgz" alt="Sapphire archive" >Sapphire</a> project. Archived: November 2021.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/sbvr.tgz" alt="SBVR archive" >SBVR</a> project. Archived: July 2013.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/scada.tgz" alt="SCADA archive" >SCADA</a> project. Archived: March 2021.</p>
@@ -974,6 +978,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/search.tgz" alt="EMFT Search archive" >Search</a> project. Archived: July 2013.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/secoblocks.tgz" alt="Secoblocks" >Secoblocks</a> project. Archived: November 2022.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/skalli.tgz" alt="Skalli archive" >Skalli</a> project. Archived: October 2022.</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/skills.tgz" alt="Skills archive" >Skills</a> project. Archived: October 2023.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/sketch.tgz" alt="Sketch archive" >Sketch</a> project. Archived: January 2014.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/soc.tgz">SOC</a> project.  Archived: January 2011</p>
         <p><a href="http://archive.eclipse.org/archived_projects/spaces.tgz">Spaces</a> project.  Archived: January 2011</p>
@@ -991,6 +996,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p><a href="http://archive.eclipse.org/archived_projects/tcs.tgz" alt="TCS archive" >TCS</a> project. Archived: November 2012.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/temporality.tgz" alt="Temporality archive" >Temporality</a> project. Archived: November 2012.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/thym.tgz" alt="Thym archive" >Thym</a> project. Archived: June 2022.</p>
+        <p><a href="http://archive.eclipse.org/archived_projects/tigerstripe.tgz">Tigerstripe</a> project. Archived: October 2023.</p>
         <p><a href="http://archive.eclipse.org/archived_projects/tmw.tgz">TMW</a> project.  Archived: March 2012 </p>
         <p><a href="http://archive.eclipse.org/archived_projects/tptp.monitoring.tgz">TPTP Monitoring</a> project.  Archived: June 2010 </p>
         <p><a href="http://archive.eclipse.org/archived_projects/tptp.tgz">TPTP</a> project.  Archived: May 2016  </p>

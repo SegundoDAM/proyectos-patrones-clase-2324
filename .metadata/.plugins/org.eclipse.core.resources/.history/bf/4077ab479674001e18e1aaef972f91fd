@@ -1,7 +1,0 @@
-package maze06;
-
-import maze06.products.Side;
-
-public interface CreatorAbstract {
-	public Side factoryMethod();
-}

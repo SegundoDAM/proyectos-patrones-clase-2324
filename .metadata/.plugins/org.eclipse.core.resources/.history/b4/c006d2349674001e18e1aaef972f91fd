@@ -1,9 +1,0 @@
-package maze06;
-
-import maze06.products.Side;
-
-public class ProductManager {
-	public Side getProduct(CreatorAbstract creator) {
-		return creator.factoryMethod();
-	}
-}

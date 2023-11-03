@@ -1,7 +1,0 @@
-package maze06;
-
-public class ProductManager {
-	public Side getProduct(Side side) {
-		return type.factoryMethod();
-	}
-}
