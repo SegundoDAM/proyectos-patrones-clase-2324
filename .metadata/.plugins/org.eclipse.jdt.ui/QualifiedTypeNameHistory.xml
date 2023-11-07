@@ -52,4 +52,12 @@
 <fullyQualifiedTypeName name="teoria.Director"/>
 <fullyQualifiedTypeName name="teoria.ConcreteBuilderPersona"/>
 <fullyQualifiedTypeName name="implementacion.Persona"/>
+<fullyQualifiedTypeName name="implementacion.Persona.Builder"/>
+<fullyQualifiedTypeName name="porrazo.NombrePrimogenito"/>
+<fullyQualifiedTypeName name="porrazo.NombreSegundoGenito"/>
+<fullyQualifiedTypeName name="valueobjects.solutionTwo.DNIType"/>
+<fullyQualifiedTypeName name="porrazo.Apellidos"/>
+<fullyQualifiedTypeName name="porrazo.Opcionales"/>
+<fullyQualifiedTypeName name="porrazo.Persona"/>
+<fullyQualifiedTypeName name="porrazo.BuilderUser"/>
 </qualifiedTypeNameHistroy>
