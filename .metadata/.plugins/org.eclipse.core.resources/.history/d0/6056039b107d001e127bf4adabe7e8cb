@@ -1,0 +1,40 @@
+package ejemplo01;
+
+public class Grupo implements Cloneable  {
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Rectangulo miREc;
+	private String nombre;
+
+	@Override
+	protected Grupo clone() throws CloneNotSupportedException {
+		return (Grupo)super.clone();
+	}
+
+	public int getLado() {
+		return miREc.getLado();
+	}
+
+	public void setLado(int lado) {
+		miREc.setLado(lado);
+	}
+
+	public int hashCode() {
+		return miREc.hashCode();
+	}
+
+	public boolean equals(Object obj) {
+		return miREc.equals(obj);
+	}
+
+	public String toString() {
+		return miREc.toString();
+	}
+	
+}

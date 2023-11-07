@@ -1,0 +1,5 @@
+package porrazo;
+
+public interface Apellidos extends UserBuilder {
+	public ? apellidos(String apellidos);
+}

@@ -1,0 +1,16 @@
+package banco02.client;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import banco02.ConcreteFactoryYoung;
+
+class ClientTest {
+
+	@Test
+	void test() {
+		Client Young=new Client(new ConcreteFactoryYoung());
+	}
+
+}

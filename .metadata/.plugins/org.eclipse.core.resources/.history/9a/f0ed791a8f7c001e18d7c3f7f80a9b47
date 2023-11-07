@@ -1,0 +1,14 @@
+package porrazo;
+
+public class NombrePrimogenito {
+	String nombre;
+
+	public NombrePrimogenito(String nombre) {
+		super();
+		this.nombre = nombre;
+	};
+	
+	public String getValue() {
+		return nombre;
+	}
+}

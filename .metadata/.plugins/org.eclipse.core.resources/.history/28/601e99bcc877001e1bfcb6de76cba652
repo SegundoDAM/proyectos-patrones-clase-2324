@@ -1,0 +1,5 @@
+package banco02;
+
+public abstract class AbstractProductDebitCard2 {
+	public float cost;
+}

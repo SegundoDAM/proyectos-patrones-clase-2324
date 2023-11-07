@@ -1,0 +1,11 @@
+package teoria;
+
+public class Director {
+	Builder b
+
+	public Director(Builder b) {
+		super();
+		this.b = b;
+	}uilder;
+	
+}

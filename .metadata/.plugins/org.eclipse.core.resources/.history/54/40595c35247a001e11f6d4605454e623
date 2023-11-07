@@ -1,0 +1,5 @@
+package teoria;
+
+public class Builder<T> {
+ public T buildPart();
+}

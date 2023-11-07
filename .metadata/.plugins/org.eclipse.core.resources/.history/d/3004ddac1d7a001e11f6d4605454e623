@@ -1,0 +1,5 @@
+package ejercicio04.product;
+
+public class CountryBike extends Bike{
+
+}

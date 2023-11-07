@@ -1,0 +1,15 @@
+package ejercicio01;
+
+import teoria.PersonaConstruccion.Builder;
+
+public class NutritionFacts {
+
+	// obligatorias
+	private  int servingSize;
+	private  int servings;
+	// opcionales
+	private  int calories;
+	private  int fat;
+
+
+}

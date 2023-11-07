@@ -1,0 +1,8 @@
+package implementacion;
+
+public class Persona {
+	//Obligatorio
+	private String nombre;
+	//no opcional
+	private String nombrePrimogenito;
+}

@@ -1,0 +1,17 @@
+package diagrama01;
+
+public class ConcreteFactoryFirst implements AbstractFactory {
+
+	@Override
+	public AbstractProductA createProductA() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AbstractProductB createProductB() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

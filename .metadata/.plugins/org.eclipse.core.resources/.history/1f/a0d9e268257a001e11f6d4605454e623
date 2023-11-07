@@ -1,0 +1,16 @@
+package teoria;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class GeneralTest {
+
+	@Test
+	void test() {
+		Director director=new Director(new ConcreteBuilderPersona());
+		director.construct();
+		
+	}
+
+}

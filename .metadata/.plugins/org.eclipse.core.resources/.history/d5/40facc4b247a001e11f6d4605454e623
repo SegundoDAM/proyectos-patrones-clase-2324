@@ -1,0 +1,11 @@
+package teoria;
+
+public class ConcreteBuilder<T> extends Builder {
+
+	@Override
+	public Object buildPart() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

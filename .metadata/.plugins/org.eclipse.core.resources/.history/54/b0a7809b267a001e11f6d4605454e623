@@ -1,0 +1,16 @@
+package implementacion;
+
+public class Persona {
+	//Obligatorio
+	private String nombre;
+	//opcional
+	private String nombrePrimogenito;
+	
+	public static class Builder{
+
+		private Builder() {
+			super();
+		}
+		
+	}
+}

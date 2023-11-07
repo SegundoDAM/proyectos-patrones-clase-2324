@@ -1,0 +1,33 @@
+package implementacion;
+
+public class Persona {
+	//Obligatorio
+	private String nombre;
+	//opcional
+	private String nombrePrimogenito;
+	
+	
+	private Persona(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+
+	public static class Builder{
+		private String nombre;
+		//opcional
+		private String nombrePrimogenito;
+		
+		public ? nombrePrimogenito(String nombre){
+			this.nombrePrimogenito=nombre;
+					
+		}
+		public Persona build() {
+			Persona persona=new Persona();
+		}
+		private Builder() {
+			super();
+		}
+		
+	}
+}

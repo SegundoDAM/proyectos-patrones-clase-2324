@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ClienteTest (1)" project="05 Portotype" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="teoria.ClienteTest" time="0.001" displayname="ClienteTest" uniqueid="[engine:junit-jupiter]/[class:teoria.ClienteTest]">
+    <testcase name="testUseClon" classname="teoria.ClienteTest" time="0.001" displayname="testUseClon()" uniqueid="[engine:junit-jupiter]/[class:teoria.ClienteTest]/[method:testUseClon()]"/>
+  </testsuite>
+</testrun>

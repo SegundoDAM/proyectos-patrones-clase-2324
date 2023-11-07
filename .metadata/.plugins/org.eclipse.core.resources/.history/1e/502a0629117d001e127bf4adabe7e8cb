@@ -1,0 +1,31 @@
+package ejemplo01;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestClonar {
+
+	@Test
+	void test() throws CloneNotSupportedException {
+		String cosa="Hola";
+//		((Object)cosa).clone();
+		Rectangulo rectangulo = new Rectangulo(15);
+		Rectangulo clone = rectangulo.clone();
+		assertFalse(rectangulo==clone);
+		clone.setLado(23);
+		assertNotEquals(rectangulo,clone);
+	}
+	@Test
+	void testClonGrupo() throws CloneNotSupportedException {
+		Grupo grupo=new Grupo();
+		grupo.setNombre("Edelmiro");
+		Grupo clone = grupo.clone();
+		assertFalse(grupo==clone);
+		assertEquals(clone.getNombre(),grupo.getNombre());
+		System.out.println(clone.getNombre());
+		grupo.setNombre("Arturo");
+		assertEquals(clone.getNombre(),grupo.getNombre());
+	}
+
+}
