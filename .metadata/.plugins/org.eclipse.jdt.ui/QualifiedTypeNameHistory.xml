@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Singleton"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
-<fullyQualifiedTypeName name="SingletonPerrezoso"/>
-<fullyQualifiedTypeName name="ptoblema00.ProductoA"/>
-<fullyQualifiedTypeName name="ptoblema00.ProductoB"/>
-<fullyQualifiedTypeName name="ptoblema00.ProductoC"/>
-<fullyQualifiedTypeName name="ptoblema00.Controller"/>
-<fullyQualifiedTypeName name="diagramaClase01.ProductoConcretoUno"/>
-<fullyQualifiedTypeName name="diagramaClase01.Creator"/>
-<fullyQualifiedTypeName name="diagramaClase01.Product"/>
 <fullyQualifiedTypeName name="diagramaClase01.CreatorConcreteUno"/>
 <fullyQualifiedTypeName name="diagramaClase01.ProductoConcretoDos"/>
 <fullyQualifiedTypeName name="diagramaClase01.CreadorConcreteDos"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="porrazo.Opcionales"/>
 <fullyQualifiedTypeName name="porrazo.Persona"/>
 <fullyQualifiedTypeName name="porrazo.BuilderUser"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="ejemplo01.Rectangulo"/>
+<fullyQualifiedTypeName name="ejemplo01.Grupo"/>
+<fullyQualifiedTypeName name="esquema.ClientInterface"/>
+<fullyQualifiedTypeName name="esquema.SpecialData"/>
+<fullyQualifiedTypeName name="easy.Client"/>
+<fullyQualifiedTypeName name="easy.Mapper"/>
+<fullyQualifiedTypeName name="easy.Trifulnio"/>
+<fullyQualifiedTypeName name="easy.Gorgete"/>
 </qualifiedTypeNameHistroy>
