@@ -1,8 +1,0 @@
-package ejercicio03Solucion.factory;
-
-import ejercicio03.product.Location;
-import ejercicio03Solucion.product.Car;
-
-public abstract class FactoryCar {
-	public abstract Car factoryMethod(Location location);
-}

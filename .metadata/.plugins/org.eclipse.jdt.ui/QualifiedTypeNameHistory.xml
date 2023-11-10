@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="diagramaClase01.CreatorConcreteUno"/>
-<fullyQualifiedTypeName name="diagramaClase01.ProductoConcretoDos"/>
-<fullyQualifiedTypeName name="diagramaClase01.CreadorConcreteDos"/>
-<fullyQualifiedTypeName name="maze06.CreatorAbstract"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="maze06.Polar"/>
-<fullyQualifiedTypeName name="maze06.creators.ProductManager"/>
-<fullyQualifiedTypeName name="maze06.creators.DoorCreator"/>
 <fullyQualifiedTypeName name="maze06.products.Door"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="maze06.products.Wall"/>
 <fullyQualifiedTypeName name="maze06.products.Window"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="diagrama01.AbstractProductA"/>
 <fullyQualifiedTypeName name="diagrama01.ConcreteProductAOne"/>
 <fullyQualifiedTypeName name="diagrama01.ConcreteProductBOne"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="easy.Mapper"/>
 <fullyQualifiedTypeName name="easy.Trifulnio"/>
 <fullyQualifiedTypeName name="easy.Gorgete"/>
+<fullyQualifiedTypeName name="ejercicio01.Cuenta"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="ejercicio01.ClientesOM"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="ejercicio01.ClienteToResponseAdapter"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseAdapter"/>
+<fullyQualifiedTypeName name="ejemplo00.RemoteBasic"/>
+<fullyQualifiedTypeName name="ejemplo00.GloomberTV"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,0 @@
-package banco02;
-
-public abstract class AbstractProductAccount {
-	public float comission;
-}

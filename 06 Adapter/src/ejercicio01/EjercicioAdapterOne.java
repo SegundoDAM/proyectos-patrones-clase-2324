@@ -9,11 +9,15 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JList;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 import java.awt.event.ActionEvent;
 
 public class EjercicioAdapterOne extends JFrame {
@@ -46,17 +50,20 @@ public class EjercicioAdapterOne extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
-		ArrayList<String> cosass=new ArrayList<>();
-		cosass.toArray();
-		String[] cosas= {"uno","dos"};
-		JList<String> list = new JList(cosas);
+//		JList<String> list = new JList(
+//				 all.stream().map((cliente) -> {
+//					return cliente.getNombre() + " " + cliente.getCuenta().getSaldo();
+//				}).toArray(String[]::new)
+//				);
+		JList<String> list = new JList(
+				new ClienteToResponseAdapter().convert(new ClientesOM().getAll()));
 		contentPane.add(list, BorderLayout.CENTER);
-		JButton btnGo = new JButton("GO!");
-		btnGo.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
-		contentPane.add(btnGo, BorderLayout.SOUTH);
+//		JButton btnGo = new JButton("GO!");
+//		btnGo.addActionListener(new ActionListener() {
+//			public void actionPerformed(ActionEvent e) {
+//			}
+//		});
+//		contentPane.add(btnGo, BorderLayout.SOUTH);
 	}
 
 }
