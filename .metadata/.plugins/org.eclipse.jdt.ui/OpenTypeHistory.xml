@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=02 Factory Method/src&lt;diagramaClase01{Product.java[Product" modifiers="513" timestamp="1698132921793"/>
-<typeInfo handle="=02 Factory Method/src&lt;teoriabienparametrizada05{Creator.java[Creator" modifiers="513" timestamp="1698388265266"/>
-<typeInfo handle="=03 Abstract Factory/src&lt;diagrama01{AbstractProductA.java[AbstractProductA" modifiers="513" timestamp="1698739469420"/>
-<typeInfo handle="=03 Abstract Factory/C:\/Program Files\/Java\/jdk-11.0.10\/lib\/jrt-fs.jar`jdk.internal.vm.compiler&lt;org.graalvm.compiler.core.common.cfg(AbstractControlFlowGraph.class[AbstractControlFlowGraph" modifiers="1537" timestamp="1607445973000"/>
-<typeInfo handle="=03 Abstract Factory/src&lt;diagrama01{AbstractProductB.java[AbstractProductB" modifiers="513" timestamp="1698739481144"/>
-<typeInfo handle="=03 Abstract Factory/src&lt;diagrama01{AbstractFactory.java[AbstractFactory" modifiers="513" timestamp="1698739662812"/>
-<typeInfo handle="=04 Builder/src&lt;porrazo{UserBuilder.java[UserBuilder" modifiers="513" timestamp="1699266562271"/>
-<typeInfo handle="=04 Builder/src&lt;porrazo{Id.java[Id" modifiers="513" timestamp="1699266844795"/>
-<typeInfo handle="=04 Builder/src&lt;porrazo{Nombre.java[Nombre" modifiers="513" timestamp="1699266937325"/>
-<typeInfo handle="=04 Builder/src&lt;porrazo{Apellidos.java[Apellidos" modifiers="513" timestamp="1699266987740"/>
-<typeInfo handle="=04 Builder/src&lt;porrazo{Opcionales.java[Opcionales" modifiers="513" timestamp="1699267236374"/>
-<typeInfo handle="=06 Adapter/src&lt;esquema{ClientInterface.java[ClientInterface" modifiers="513" timestamp="1699328228389"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

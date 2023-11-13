@@ -1,8 +1,0 @@
-package eje01back;
-
-public class Grupo  {
-	private Rectangulo miREc;
-	private String nombre;
-
-	
-}

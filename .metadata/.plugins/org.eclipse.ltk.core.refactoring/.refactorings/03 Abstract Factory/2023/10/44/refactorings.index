@@ -1,7 +1,0 @@
-1698739669711	Rename type 'ConcreteProductAUno'
-1698739718305	Rename type 'ConcreteFactoryFirst'
-1698739833271	Extract local variable 'createProductA'
-1698739851617	Extract local variable 'createProductB'
-1698741441530	Copy compilation unit
-1698741453734	Rename type 'AbstractProductDebitCard2'
-1698742345283	Delete element

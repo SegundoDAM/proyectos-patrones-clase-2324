@@ -1,5 +1,0 @@
-package porrazo;
-
-public interface Id extends UserBuilder {
-
-}
