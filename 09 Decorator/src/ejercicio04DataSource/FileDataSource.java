@@ -4,14 +4,16 @@ public class FileDataSource implements DataSource {
 	String filename;
 
 	@Override
-	public void writeData(String data) {
-		System.out.println(data);
+	public String writeData(String data) {
+		return data;
 	}
 
 	@Override
-	public void readData() {
+	public String readData(String data) {
 		// TODO Auto-generated method stub
-
+		return null;
 	}
+
+	
 
 }

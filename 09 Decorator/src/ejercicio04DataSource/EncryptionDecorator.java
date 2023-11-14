@@ -8,17 +8,19 @@ public class EncryptionDecorator extends DataSourceDecorator {
 	}
 
 	@Override
-	public void writeData(String data) {
-		this.inputData.writeData(encript(data));
-	}
-
-	@Override
-	public void readData() {
-		// TODO Auto-generated method stub
-
+	public String writeData(String data) {
+		return this.inputData.writeData(encript(data));
 	}
 
 	public String encript(String data) {
 		return data+"encriptado";
 	}
+
+	@Override
+	public String readData(String data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
 }

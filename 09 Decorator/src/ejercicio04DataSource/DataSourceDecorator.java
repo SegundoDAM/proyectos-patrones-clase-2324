@@ -8,8 +8,8 @@ public abstract class DataSourceDecorator implements DataSource {
 		this.inputData = inputData;
 	}
 
-	public abstract void writeData(String data);
+	public abstract String writeData(String data);
 
-	public abstract void readData();
+	public abstract String readData(String data);
 
 }

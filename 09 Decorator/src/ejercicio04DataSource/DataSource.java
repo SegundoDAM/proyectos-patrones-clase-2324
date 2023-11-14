@@ -1,6 +1,6 @@
 package ejercicio04DataSource;
 
 public interface DataSource {
-	public void writeData(String data);
-	public void readData();
+	public String writeData(String data);
+	public String readData(String data);
 }

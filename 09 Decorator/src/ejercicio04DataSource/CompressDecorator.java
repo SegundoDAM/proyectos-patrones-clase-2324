@@ -1,23 +1,26 @@
 package ejercicio04DataSource;
 
 public class CompressDecorator extends DataSourceDecorator {
+	
 	public CompressDecorator(DataSource inputData) {
 		super(inputData);
 	}
 
 	@Override
-	public void writeData(String data) {
-		inputData.writeData(compress(data));
+	public String writeData(String data) {
+		String compress = compress(data);
+		return inputData.writeData(compress);
+	}
+
+	
+	private String compress(String data) {
+		return data + "comprimido";
 	}
 
 	@Override
-	public void readData() {
+	public String readData(String data) {
 		// TODO Auto-generated method stub
-
-	}
-
-	private String compress(String data) {
-		return data + " comprimido";
+		return null;
 	}
 
 }
