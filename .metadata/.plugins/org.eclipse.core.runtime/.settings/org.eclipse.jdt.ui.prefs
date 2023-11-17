@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ejemploPersonaje.Personaje"><rhs name\="ejemploPersonaje.Aldeano"/><rhs name\="ejemploPersonaje.Armadura"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ejemploPersonaje.Personaje"><rhs name\="ejemploPersonaje.Aldeano"/><rhs name\="ejemploPersonaje.Armadura"/></lhs><lhs name\="ejercicio03.Nave"><rhs name\="ejercicio03.DisparoComplejo"/><rhs name\="ejercicio03.ArmaduraSuperior"/></lhs><lhs name\="ejercicio04DataSource.DataSource"><rhs name\="ejercicio04DataSource.FileDataSource"/><rhs name\="ejercicio04DataSource.EncryptionDecorator"/><rhs name\="ejercicio04DataSource.CompressDecorator"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

@@ -6,4 +6,11 @@
     <fullyQualifiedTypeName name="ejemploPersonaje.Personaje"/>
     <fullyQualifiedTypeName name="ejemploPersonaje.Aldeano"/>
     <fullyQualifiedTypeName name="ejemploPersonaje.Armadura"/>
+    <fullyQualifiedTypeName name="ejercicio03.DisparoComplejo"/>
+    <fullyQualifiedTypeName name="ejercicio03.ArmaduraSuperior"/>
+    <fullyQualifiedTypeName name="org.junit.platform.suite.api.SelectClasses"/>
+    <fullyQualifiedTypeName name="ejercicio04DataSource.DataSource"/>
+    <fullyQualifiedTypeName name="ejercicio04DataSource.FileDataSource"/>
+    <fullyQualifiedTypeName name="ejercicio04DataSource.EncryptionDecorator"/>
+    <fullyQualifiedTypeName name="ejercicio04DataSource.CompressDecorator"/>
 </qualifiedTypeNameHistroy>
