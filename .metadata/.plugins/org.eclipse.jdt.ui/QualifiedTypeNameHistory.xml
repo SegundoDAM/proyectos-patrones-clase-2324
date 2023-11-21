@@ -13,4 +13,9 @@
     <fullyQualifiedTypeName name="ejercicio04DataSource.FileDataSource"/>
     <fullyQualifiedTypeName name="ejercicio04DataSource.EncryptionDecorator"/>
     <fullyQualifiedTypeName name="ejercicio04DataSource.CompressDecorator"/>
+    <fullyQualifiedTypeName name="kata.KataStream"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="esquema00.FlyWeight"/>
+    <fullyQualifiedTypeName name="esquema00.FlyWeightFactory"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
 </qualifiedTypeNameHistroy>
