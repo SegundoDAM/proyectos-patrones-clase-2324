@@ -2,7 +2,7 @@ package ejercicio01problema;
 
 public class CollectionStatic {
 	int[] arra;
-	int position = 0;
+	int addPosition = 0;
 
 	public CollectionStatic(int size) {
 		super();
