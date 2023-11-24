@@ -1,5 +1,4 @@
-package problema00;
-
+package problema00HilosObserverSolucion;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -12,8 +11,10 @@ class PollerTest {
 	void test() throws InterruptedException {
 		ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
 		Generator task = new Generator();
+		Poller poller = new Poller();
+		task.addObserver(poller);
 		newCachedThreadPool.execute(task);
-		newCachedThreadPool.execute(new Poller(task));
+		newCachedThreadPool.execute(poller);
 		newCachedThreadPool.awaitTermination(100, TimeUnit.SECONDS);
 		newCachedThreadPool.shutdown();
 	}

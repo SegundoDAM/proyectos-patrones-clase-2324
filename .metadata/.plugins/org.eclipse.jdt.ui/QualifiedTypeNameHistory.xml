@@ -18,4 +18,19 @@
     <fullyQualifiedTypeName name="esquema00.FlyWeight"/>
     <fullyQualifiedTypeName name="esquema00.FlyWeightFactory"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="esquema.Command"/>
+    <fullyQualifiedTypeName name="esquema.CopyCommand"/>
+    <fullyQualifiedTypeName name="esquema.Invoker"/>
+    <fullyQualifiedTypeName name="esquema.Receiver"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool"/>
+    <fullyQualifiedTypeName name="Generator"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.Observable"/>
+    <fullyQualifiedTypeName name="intentodeprecated01.Proveedor"/>
+    <fullyQualifiedTypeName name="java.util.Observer"/>
+    <fullyQualifiedTypeName name="intentodeprecated01.Consumer"/>
 </qualifiedTypeNameHistroy>

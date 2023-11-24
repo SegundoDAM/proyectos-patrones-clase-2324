@@ -16,6 +16,7 @@ public class Poller implements Runnable {
 		do {
 			if (shabbyNumber != this.generator.getAwesomeValue()) {
 				System.out.println("new number change:"+changes++);
+			
 				shabbyNumber=this.generator.getAwesomeValue();
 				try {
 					Thread.sleep(1);
@@ -24,7 +25,9 @@ public class Poller implements Runnable {
 				}
 			}
 			else {
-				System.out.println("esperando new number tried:"+counter++);
+				counter++;
+				if(counter%10000==0)
+				System.out.println("esperando new number tried:"+counter);
 			}
 		} while (true);
 	}
