@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;naiveDownloader&apos; in &apos;ejemploguru02.Demo.main(...)&apos; to &apos;nativeDownloader&apos;&#x0D;&#x0A;- Original project: &apos;12 Proxy&apos;&#x0D;&#x0A;- Original element: &apos;ejemploguru02.Demo.main(String[]).naiveDownloader&apos;&#x0D;&#x0A;- Renamed element: &apos;naiveDownloader&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;naiveDownloader&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ejemploguru02{Demo.java[Demo~main~\[QString;@naiveDownloader!101!188!119!133!QYouTubeDownloader;!0!false" name="nativeDownloader" references="true" stamp="1700474158505" version="1.0"/>
+</session>

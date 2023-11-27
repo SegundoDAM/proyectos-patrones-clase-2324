@@ -1,0 +1,19 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.jupiter.api.Test;
+
+class PollerTest {
+
+	@Test
+	void test() throws InterruptedException {
+		ForkJoinPool commonPool = ForkJoinPool.commonPool();
+		Generator task = new Generator();
+		commonPool.execute(task);
+		commonPool.execute(new Poller(task));
+		commonPool.awaitTermination(10000, TimeUnit.SECONDS);
+	}
+
+}

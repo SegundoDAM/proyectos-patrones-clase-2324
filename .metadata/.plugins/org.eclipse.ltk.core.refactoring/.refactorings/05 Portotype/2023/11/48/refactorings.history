@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Utiles.java&apos; to &apos;PICOLI22/src/utiles&apos;&#x0D;&#x0A;- Original project: &apos;05 Portotype&apos;&#x0D;&#x0A;- Destination element: &apos;PICOLI22/src/utiles&apos;&#x0D;&#x0A;- Original element: &apos;ejemplo01.Utiles.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=PICOLI22/src&lt;utiles" element1="/src&lt;ejemplo01{Utiles.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1701082341439" units="1" version="1.0"/>
+</session>

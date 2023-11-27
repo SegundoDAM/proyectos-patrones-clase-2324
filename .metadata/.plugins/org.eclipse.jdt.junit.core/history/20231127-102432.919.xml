@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestPublis" project="19 Observer" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="esquema03.TestPublis" time="9.933" displayname="TestPublis" uniqueid="[engine:junit-jupiter]/[class:esquema03.TestPublis]">
+    <testcase name="test" classname="esquema03.TestPublis" time="9.933" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:esquema03.TestPublis]/[method:test()]"/>
+  </testsuite>
+</testrun>

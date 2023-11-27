@@ -1,0 +1,16 @@
+
+public class ConcreteState implements State {
+
+	@Override
+	public void doThis() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void doThat() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

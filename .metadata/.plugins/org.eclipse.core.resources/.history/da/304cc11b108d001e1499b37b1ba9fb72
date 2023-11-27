@@ -1,0 +1,6 @@
+package ascensor;
+
+public interface Comportamiento {
+	public boolean subir();
+	public boolean bajar();
+}

@@ -1,0 +1,25 @@
+package esquema00;
+
+public class Context2 implements State {
+	public State state;
+
+	public Context2(State state) {
+		super();
+		this.state = state;
+	}
+
+	public void changeState(State state) {
+		this.state = state;
+	}
+
+	@Override
+	public void doThis() {
+		state.doThis();
+	}
+
+	@Override
+	public void doThat() {
+		state.doThat();
+	}
+
+}

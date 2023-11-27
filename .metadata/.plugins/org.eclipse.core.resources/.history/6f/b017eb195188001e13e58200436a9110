@@ -1,0 +1,14 @@
+package intentodeprecated01;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestObserDeprecated {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

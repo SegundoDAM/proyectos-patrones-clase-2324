@@ -1,0 +1,21 @@
+1701079365089	Delete element
+1701079449935	Rename type 'ConcreteState'
+1701079705943	Extract local variable 'concreteStateB'
+1701079873310	Rename source folder 'src'
+1701079885234	Copy compilation units
+1701079910037	Move compilation units
+1701079914415	Rename source folder 'esquema00'
+1701080135777	Move type 'Context' to new file
+1701080149497	Move type 'State' to new file
+1701080196506	Move type 'ConnectSocketState' to new file
+1701080249189	Move type 'CloseSocketState' to new file
+1701080340154	Rename type 'Stat'
+1701080368753	Delete elements
+1701080415346	Delete element
+1701080471951	Copy package
+1701080522781	Delete element
+1701080524365	Delete element
+1701080525566	Delete element
+1701080526980	Delete element
+1701080528083	Delete element
+1701081081975	Rename package 'ascensor'

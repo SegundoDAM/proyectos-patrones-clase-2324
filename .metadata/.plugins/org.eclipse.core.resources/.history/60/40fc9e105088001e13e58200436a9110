@@ -1,0 +1,15 @@
+package problema00;
+
+import java.util.Observable;
+import java.util.Observer;
+
+//Observer necesita saber cuando hay cmambios
+public class ejemplo01 implements Observer{
+
+	@Override
+	public void update(Observable o, Object arg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package intentodeprecated01;
+
+import java.util.Observable;
+
+public class Proveedor extends Observable{
+
+}

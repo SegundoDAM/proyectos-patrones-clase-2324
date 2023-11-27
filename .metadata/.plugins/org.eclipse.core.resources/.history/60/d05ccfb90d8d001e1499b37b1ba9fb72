@@ -1,0 +1,44 @@
+package esquemaProf;
+
+public class Test {
+	public static void main(String arg[]) {
+		try {
+			State state = new ConcreteStateA();
+			Context context = new Context();
+			context.setState(state);
+			context.request();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
+
+class Context {
+	private State state;
+
+	public void setState(State state) {
+		this.state = state;
+	}
+
+	public State getState() {
+		return state;
+	}
+
+	public void request() {
+		state.handle();
+	}
+}
+
+interface State {
+	void handle();
+}
+
+class ConcreteStateA implements State {
+	public void handle() {
+	}
+}
+
+class ConcreteStateB implements State {
+	public void handle() {
+	}
+}

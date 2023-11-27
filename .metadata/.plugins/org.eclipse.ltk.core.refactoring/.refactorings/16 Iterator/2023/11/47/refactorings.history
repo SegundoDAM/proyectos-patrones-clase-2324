@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;position&apos; in &apos;ejercicio01problema.CollectionStatic&apos; to &apos;addPosition&apos;&#x0D;&#x0A;- Original project: &apos;16 Iterator&apos;&#x0D;&#x0A;- Original element: &apos;ejercicio01problema.CollectionStatic.position&apos;&#x0D;&#x0A;- Renamed element: &apos;ejercicio01problema.CollectionStatic.addPosition&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;position&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;ejercicio01problema{CollectionStatic.java[CollectionStatic^position" name="addPosition" references="true" setter="false" stamp="1700554165645" textual="false" version="1.0"/>
+</session>

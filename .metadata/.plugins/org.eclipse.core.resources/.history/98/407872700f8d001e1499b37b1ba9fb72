@@ -1,0 +1,18 @@
+package esquema00;
+
+public class Context  {
+	public Strategy state;
+
+	public Context(Strategy strategy) {
+		super();
+		this.state = strategy;
+	}
+
+	public void setStrategy(Strategy strategy) {
+		this.state = strategy;
+	}
+
+	public void do() {
+		Strategy
+	}
+}

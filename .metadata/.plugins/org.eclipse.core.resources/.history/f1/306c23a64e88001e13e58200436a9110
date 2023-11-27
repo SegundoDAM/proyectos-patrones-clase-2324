@@ -1,0 +1,17 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.concurrent.ForkJoinPool;
+
+import org.junit.jupiter.api.Test;
+
+class PollerTest {
+
+	@Test
+	void test() {
+		ForkJoinPool commonPool = ForkJoinPool.commonPool();
+		Generator task = new Generator();
+		commonPool.execute(task);
+		commonPool.execute(new Poller(task));
+	}
+
+}

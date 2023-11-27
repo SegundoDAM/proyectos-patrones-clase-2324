@@ -1,0 +1,10 @@
+1700557500284	Rename type 'Generador'
+1700557630628	Extract local variable 'nextInt'
+1700557682611	Rename type 'Sondeador'
+1700557943791	Extract local variable 'commonPool'
+1700557965319	Extract local variable 'task'
+1700558257084	Extract local variable 'newCachedThreadPool'
+1700558667742	Move compilation units
+1700558790772	Rename package 'solucion'
+1700558795273	Move compilation unit
+1700558923762	Rename type 'ejemplo01'

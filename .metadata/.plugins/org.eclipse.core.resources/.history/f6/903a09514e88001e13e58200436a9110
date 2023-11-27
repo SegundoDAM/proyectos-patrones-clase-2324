@@ -1,0 +1,24 @@
+
+public class Poller implements Runnable {
+	private Generator generator;
+	private int shabbyNumber = 0;
+
+	public Poller(Generator generator) {
+		super();
+		this.generator = generator;
+	}
+
+	@Override
+	public void run() {
+		do {
+			if (shabbyNumber != this.generator.getAwesomeValue()) {
+				System.out.println("new number");
+				shabbyNumber=this.generator.getAwesomeValue();
+			}
+			else {
+				System.out.println("esperando new number");
+			}
+		} while (true);
+	}
+
+}
