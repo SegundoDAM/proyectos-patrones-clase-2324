@@ -8,6 +8,8 @@ public class Intraquilador implements PropertyChangeListener{
 	@Override
 	public void propertyChange(PropertyChangeEvent evt) {
 		System.out.println("Dios mio algo ha cambiado "+evt.getNewValue());
+		System.out.println(evt.getOldValue());
+		System.out.println(evt.getPropertyName());
 		
 	}
 

@@ -29,8 +29,8 @@
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.util.Observable"/>
     <fullyQualifiedTypeName name="intentodeprecated01.Proveedor"/>
     <fullyQualifiedTypeName name="java.util.Observer"/>
     <fullyQualifiedTypeName name="intentodeprecated01.Consumer"/>
+    <fullyQualifiedTypeName name="java.util.Observable"/>
 </qualifiedTypeNameHistroy>
