@@ -9,19 +9,25 @@ public class Ser {
 	protected static final int edadAnciano = 65;
 
 	protected float esperanzaVida;
-	protected int edad;
+	protected int edad = 0;
 	protected int necesidadVital;
-	
 
-	public Ser() {
+	// si menor
+	private float factorDesarrollo;
+
+	// si adulto
+	private long ahorro;
+	private boolean activo;
+
+	public Ser(int necesidadVital) {
 		super();
 		esperanzaVida = calculaEsperanzaVida(vidaMin, vidaMax);
+		this.necesidadVital = necesidadVital;
 	}
 
-	public Ser(Ser ser) {
-		this.edad=ser.edad;
-		this.esperanzaVida=ser.esperanzaVida;
-		this.necesidadVital=ser.necesidadVital;
+	// envejecer es igual para todo, esto no cambia
+	public void envejecer() {
+		edad++;
 	}
 
 	public float getEsperanzaVida() {
@@ -44,34 +50,73 @@ public class Ser {
 		this.edad = edad;
 	}
 
-	public boolean envejecer() {
-		this.edad++;
-		// TODO tengo que ver si un menor pasa a ser adulto o no
-		// y para que pase de adulto a anciano
-		return isAlive();
-	}
-
 	public boolean isAlive() {
 		return this.edad <= this.esperanzaVida;
 	}
 
 	public void vivir(int sueldo) {
 		this.alimentar(sueldo);
+		this.recalcularEsperanzaDeVida(sueldo);
 	}
 
-	
 	protected void recalcularEsperanzaDeVida(int sueldo) {
-		// TODO recalculando
-	}
-	
-	public void alimentar(int sueldo) {
-		System.out.println("soy un ser a secas");
+		if (isMenor())
+			recalcularEsperanzaDeVidaMenor(sueldo);
+		if (isAdulto())
+			recalcularEsperanzaDeVidaAdulto(sueldo);
+		if (isAnciano())
+			recalcularEsperanzaDeVidaAnciano(sueldo);
 	}
 
-	public boolean pasaAAnciano() {
-		return edad==65;
+	private void recalcularEsperanzaDeVidaAnciano(int sueldo) {
+		// TODO Auto-generated method stub
+
 	}
-	public boolean pasaAAdulto() {
-		return edad==18;
+
+	private void recalcularEsperanzaDeVidaAdulto(int sueldo) {
+		// TODO Auto-generated method stub
+
 	}
+
+	private void recalcularEsperanzaDeVidaMenor(int sueldo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void alimentar(int sueldo) {
+		if (isMenor())
+			alimentarMenor(sueldo);
+		if (isAdulto())
+			alimentarAdulto(sueldo);
+		if (isAnciano())
+			alimentarAnciano(sueldo);
+	}
+
+	private void alimentarAnciano(int sueldo) {
+		System.out.println("anciano");
+
+	}
+
+	private void alimentarAdulto(int sueldo) {
+		System.out.println("adulto");
+
+	}
+
+	private void alimentarMenor(int sueldo) {
+		System.out.println("menor");
+
+	}
+
+	public boolean isAnciano() {
+		return edad >= 65;
+	}
+
+	public boolean isAdulto() {
+		return !isMenor() && !isAnciano();
+	}
+
+	public boolean isMenor() {
+		return edad < 18;
+	}
+
 }

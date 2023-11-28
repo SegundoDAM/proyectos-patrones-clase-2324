@@ -33,4 +33,11 @@
     <fullyQualifiedTypeName name="java.util.Observer"/>
     <fullyQualifiedTypeName name="intentodeprecated01.Consumer"/>
     <fullyQualifiedTypeName name="java.util.Observable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.SubmissionPublisher"/>
+    <fullyQualifiedTypeName name="model.Estado"/>
+    <fullyQualifiedTypeName name="State"/>
+    <fullyQualifiedTypeName name="ConcreteState"/>
+    <fullyQualifiedTypeName name="Context"/>
+    <fullyQualifiedTypeName name="ConcreteStateA"/>
+    <fullyQualifiedTypeName name="esquema00.Strategy"/>
 </qualifiedTypeNameHistroy>
