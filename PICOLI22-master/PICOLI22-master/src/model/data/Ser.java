@@ -12,17 +12,15 @@ public class Ser {
 	protected int edad = 0;
 	protected int necesidadVital;
 
-	// si menor
-	private float factorDesarrollo;
-
-	// si adulto
-	private long ahorro;
-	private boolean activo;
-
 	public Ser(int necesidadVital) {
 		super();
 		esperanzaVida = calculaEsperanzaVida(vidaMin, vidaMax);
 		this.necesidadVital = necesidadVital;
+	}
+	public Ser(Ser ser) {
+		esperanzaVida=ser.esperanzaVida;
+		edad=ser.edad;
+		necesidadVital=ser.necesidadVital;
 	}
 
 	// envejecer es igual para todo, esto no cambia
