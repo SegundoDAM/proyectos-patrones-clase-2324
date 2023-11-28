@@ -11,29 +11,20 @@ class seresTest {
 
 	@Test
 	void test() {
-		LinkedList<Ser> seres=new LinkedList();
-		Ser juanito=new Menor(100);
-		Ser menor=juanito;
-		seres.add(juanito);
+		Ser juanito=new Ser(100);
 		juanito.setEsperanzaVida(80);
-		assertTrue(juanito.isMenor());
+		assertTrue(juanito.getEtapaVital() instanceof Menor);
 		for (int i = 0; i < 19; i++) {
 			juanito.envejecer();
+			juanito.alimentar(1);
 		}
-		juanito=new Adulto(juanito);
-		Ser adulto=juanito;
-		assertTrue(juanito instanceof Adulto);
+		juanito.alimentar(1);
+		assertTrue(juanito.getEtapaVital() instanceof Adulto);
 		for (int i = 18; i < 66; i++) {
+			juanito.alimentar(1);
 			juanito.envejecer();
 		}
-		juanito=new Ser(juanito);
 		//muere
-		assertTrue(juanito.equals(adulto));
-		assertTrue(seres.remove(juanito));
-		assertEquals(0, seres.size());
-		assertTrue(juanito instanceof Ser);
-//		assertTrue(menor==ser);
-//		assertTrue(adulto==ser);
 	}
 
 }

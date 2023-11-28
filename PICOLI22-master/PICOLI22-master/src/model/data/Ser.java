@@ -13,21 +13,27 @@ public class Ser {
 	protected float esperanzaVida;
 	protected int edad = 0;
 	protected int necesidadVital;
+	EtapaVital etapaVital;
 
 	public Ser(int necesidadVital) {
 		super();
 		esperanzaVida = calculaEsperanzaVida(vidaMin, vidaMax);
 		this.necesidadVital = necesidadVital;
+		etapaVital=new Menor();
 	}
-	public Ser(Ser ser) {
-		esperanzaVida=ser.esperanzaVida;
-		edad=ser.edad;
-		necesidadVital=ser.necesidadVital;
-	}
-
+	
 	// envejecer es igual para todo, esto no cambia
 	public void envejecer() {
 		edad++;
+		if(edad==18) etapaVital=new Adulto();
+		if(edad==65) etapaVital=new EtapaVital() {
+			
+			@Override
+			public void alimentar(int sueldo) {
+				System.out.println("apenas me alimento porque soy anciano");
+				
+			}
+		};
 	}
 
 	public float getEsperanzaVida() {
@@ -52,6 +58,16 @@ public class Ser {
 
 	public boolean isAlive() {
 		return this.edad <= this.esperanzaVida;
+	}
+	
+	public void alimentar(int sueldo) {
+		etapaVital.alimentar(sueldo);
+//		if (isMenor())
+//			alimentarMenor(sueldo);
+//		if (isAdulto())
+//			alimentarAdulto(sueldo);
+//		if (isAnciano())
+//			alimentarAnciano(sueldo);
 	}
 
 	public void vivir(int sueldo) {
@@ -83,15 +99,7 @@ public class Ser {
 
 	}
 
-	public void alimentar(int sueldo) {
-		if (isMenor())
-			alimentarMenor(sueldo);
-		if (isAdulto())
-			alimentarAdulto(sueldo);
-		if (isAnciano())
-			alimentarAnciano(sueldo);
-	}
-
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(edad, esperanzaVida, necesidadVital);
@@ -132,6 +140,10 @@ public class Ser {
 
 	public boolean isMenor() {
 		return edad < 18;
+	}
+
+	public EtapaVital getEtapaVital() {
+		return etapaVital;
 	}
 
 }
