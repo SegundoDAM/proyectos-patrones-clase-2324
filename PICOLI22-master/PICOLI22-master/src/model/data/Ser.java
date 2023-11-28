@@ -1,5 +1,7 @@
 package model.data;
 
+import java.util.Objects;
+
 import utiles.Utiles;
 
 public class Ser {
@@ -90,6 +92,21 @@ public class Ser {
 			alimentarAnciano(sueldo);
 	}
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(edad, esperanzaVida, necesidadVital);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		
+		Ser other = (Ser) obj;
+		return edad == other.edad && Float.floatToIntBits(esperanzaVida) == Float.floatToIntBits(other.esperanzaVida)
+				&& necesidadVital == other.necesidadVital;
+	}
 	private void alimentarAnciano(int sueldo) {
 		System.out.println("anciano");
 
