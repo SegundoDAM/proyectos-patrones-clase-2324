@@ -40,4 +40,9 @@
     <fullyQualifiedTypeName name="Context"/>
     <fullyQualifiedTypeName name="ConcreteStateA"/>
     <fullyQualifiedTypeName name="esquema00.Strategy"/>
+    <fullyQualifiedTypeName name="Papito"/>
+    <fullyQualifiedTypeName name="HijitoBueno"/>
+    <fullyQualifiedTypeName name="model.data.Adulto"/>
+    <fullyQualifiedTypeName name="model.data.Menor"/>
+    <fullyQualifiedTypeName name="model.data.EtapaVital"/>
 </qualifiedTypeNameHistroy>

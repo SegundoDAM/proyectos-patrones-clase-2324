@@ -35,7 +35,7 @@ public class Ser {
 			}
 		};
 	}
-
+	
 	public float getEsperanzaVida() {
 		return esperanzaVida;
 	}

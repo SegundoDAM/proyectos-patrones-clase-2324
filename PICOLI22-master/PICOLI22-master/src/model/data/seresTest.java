@@ -1,5 +1,6 @@
 package model.data;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -24,7 +25,8 @@ class seresTest {
 			juanito.alimentar(1);
 			juanito.envejecer();
 		}
-		//muere
+		assertFalse(juanito.getEtapaVital() instanceof Adulto);
+		assertFalse(juanito.getEtapaVital() instanceof Menor);
 	}
 
 }

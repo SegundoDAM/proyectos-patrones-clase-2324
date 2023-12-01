@@ -1,7 +1,5 @@
 package model.data;
 
-import java.util.Objects;
-
 public class Menor implements EtapaVital{
 	// si menor
 	private float factorDesarrollo;

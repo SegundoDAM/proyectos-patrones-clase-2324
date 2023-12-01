@@ -1,7 +1,5 @@
 package model.data;
 
-import java.util.Objects;
-
 public class Adulto implements EtapaVital{
 	// si adulto
 	private long ahorro;
