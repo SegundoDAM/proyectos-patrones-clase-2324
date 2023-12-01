@@ -1,5 +1,6 @@
 package model.data;
 
+import java.beans.PropertyChangeSupport;
 import java.util.Objects;
 
 import utiles.Utiles;
@@ -15,6 +16,9 @@ public class Ser {
 	protected int necesidadVital;
 	EtapaVital etapaVital;
 
+	PropertyChangeSupport ss=new PropertyChangeSupport(etapaVital) {
+		
+	};
 	public Ser(int necesidadVital) {
 		super();
 		esperanzaVida = calculaEsperanzaVida(vidaMin, vidaMax);
