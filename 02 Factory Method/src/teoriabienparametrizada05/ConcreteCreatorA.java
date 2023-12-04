@@ -13,7 +13,8 @@ public class ConcreteCreatorA implements Creator {
 	
 	// dejar el factory method sin add parametros
 	public Product factoryMethod() {
-		return ConcreteProductA.getProduct(mipropiedad);
+		return new ConcreteProductA(mipropiedad);
+//		return ConcreteProductA.getProduct(mipropiedad);
 
 	}
 	

@@ -8,7 +8,10 @@ public class ConcreteProductA extends Product {
 	private ConcreteProductA() {
 		super();
 	}
-	
+	public ConcreteProductA(int mipropiedad) {
+		this();
+		this.mipropiedad = mipropiedad;
+	}
 	@Override
 	public void operacion() {
 		// TODO Auto-generated method stub
@@ -28,10 +31,7 @@ public class ConcreteProductA extends Product {
 		this.mipropiedad = mipropiedad;
 	}
 
-	private ConcreteProductA(int mipropiedad) {
-		this();
-		this.mipropiedad = mipropiedad;
-	}
+
 
 	
 }

@@ -15,5 +15,7 @@ public class prueba {
 		producto = productManager.createProduct(new ConcreteCreatorB());
 		producto.operacion();
 		System.out.println(producto.quienSoy());
+		//El cliente sabe el tipo que quiere
+		ConcreteProductA product= (ConcreteProductA) productManager.createProduct(new ConcreteCreatorA(3));
 	}
 }

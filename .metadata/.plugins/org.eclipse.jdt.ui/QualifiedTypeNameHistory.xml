@@ -45,4 +45,6 @@
     <fullyQualifiedTypeName name="model.data.Adulto"/>
     <fullyQualifiedTypeName name="model.data.Menor"/>
     <fullyQualifiedTypeName name="model.data.EtapaVital"/>
+    <fullyQualifiedTypeName name="java.beans.PropertyChangeSupport"/>
+    <fullyQualifiedTypeName name="java.beans.PropertyChangeListener"/>
 </qualifiedTypeNameHistroy>

@@ -10,7 +10,8 @@ class ConcreteCreatorATest {
 	void test() {
 		FactoryManager mia=new FactoryManager();
 		//el usuario elige
-		assertTrue(ConcreteProductB.class==mia.getProduct(new ConcreteCreatorB()).getClass());
+		assertTrue(ConcreteProductB.class
+				==mia.getProduct(new ConcreteCreatorB()).getClass());
 	}
 
 }

@@ -1,7 +1,0 @@
-package publishartesanal;
-
-import java.util.concurrent.Flow.Publisher;
-
-public class MyPublisher implements Publisher<T> {
-
-}

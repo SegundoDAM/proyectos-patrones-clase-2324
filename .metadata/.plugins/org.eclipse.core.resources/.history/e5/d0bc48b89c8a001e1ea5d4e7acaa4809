@@ -1,7 +1,0 @@
-package publishartesanal;
-
-import java.util.concurrent.Flow.Subscriber;
-
-public class MySubscriber implements Subscriber<T> {
-
-}
