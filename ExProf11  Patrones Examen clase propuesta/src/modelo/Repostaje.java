@@ -1,5 +1,7 @@
 package modelo;
 
+import observer.Surtidor;
+
 public class Repostaje {
 	private static long lastId = 0;
 	private long id = -1;

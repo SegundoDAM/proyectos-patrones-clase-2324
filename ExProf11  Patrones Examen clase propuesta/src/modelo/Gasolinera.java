@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 import Adapter.AdapterPagosVersionJava8;
 import factory.Pago;
 import objectMother.OM;
+import observer.Surtidor;
 
 public class Gasolinera {
 	List<Operacion> operaciones;

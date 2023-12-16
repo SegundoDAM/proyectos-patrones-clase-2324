@@ -9,10 +9,10 @@ import java.util.Random;
 import java.util.Set;
 
 import modelo.Combustible;
-import modelo.Deposito;
 import modelo.Repostaje;
-import modelo.Surtidor;
 import modelo.TipoPago;
+import observer.Deposito;
+import observer.Surtidor;
 
 public class OM {
 	List<Surtidor> surtidores;
@@ -21,7 +21,7 @@ public class OM {
 	public List<Deposito> getDepositos() {
 		List<Deposito> depositos = new LinkedList<Deposito>();
 
-		// Generar depósitos para cada tipo de combustible
+		// Generar depï¿½sitos para cada tipo de combustible
 		depositos.add(new Deposito(Combustible.fuel, 1000, 500));
 		depositos.add(new Deposito(Combustible.fuel, 1500, 800));
 

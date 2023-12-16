@@ -10,10 +10,10 @@ import java.util.Set;
 
 import org.junit.jupiter.api.Test;
 
-import modelo.Deposito;
 import modelo.Repostaje;
-import modelo.Surtidor;
 import objectMother.OM;
+import observer.Deposito;
+import observer.Surtidor;
 
 public class OMTest {
 

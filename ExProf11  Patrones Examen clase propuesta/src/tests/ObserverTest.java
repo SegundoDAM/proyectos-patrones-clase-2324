@@ -9,10 +9,10 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 import modelo.Combustible;
-import modelo.Deposito;
 import modelo.Repostaje;
-import modelo.Surtidor;
 import objectMother.OM;
+import observer.Deposito;
+import observer.Surtidor;
 
 public class ObserverTest {
 

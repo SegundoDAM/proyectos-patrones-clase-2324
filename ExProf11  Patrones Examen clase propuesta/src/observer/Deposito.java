@@ -1,6 +1,8 @@
-package modelo;
+package observer;
 
 import java.beans.PropertyChangeSupport;
+
+import modelo.Combustible;
 
 public class Deposito extends PropertyChangeSupport{
 

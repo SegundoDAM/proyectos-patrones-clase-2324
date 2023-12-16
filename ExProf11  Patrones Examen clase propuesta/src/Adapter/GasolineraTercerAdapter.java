@@ -12,8 +12,8 @@ import modelo.Combustible;
 import modelo.Operacion;
 import modelo.Repostaje;
 import modelo.RepostajeNoTerminadoException;
-import modelo.Surtidor;
 import objectMother.OM;
+import observer.Surtidor;
 
 public class GasolineraTercerAdapter {
 	List<Operacion> operaciones;

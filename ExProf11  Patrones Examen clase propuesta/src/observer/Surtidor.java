@@ -1,4 +1,4 @@
-package modelo;
+package observer;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
+
+import modelo.Combustible;
 
 public class Surtidor implements PropertyChangeListener {
 	private int numero;

@@ -35,7 +35,6 @@ INDEX VERSION 1.131+C:\DAM 20-21\Acceso A Datos\07 Patrones Diseño\proyectos cla
 2404131569.index
 402502502.index
 796574143.index
-2428681011.index
 1475251770.index
 2405071496.index
 898499272.index
