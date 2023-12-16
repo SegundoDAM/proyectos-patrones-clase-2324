@@ -1,6 +1,0 @@
-package esquema00;
-
-public interface Strategy {
-public void doThis();
-public void doThat();
-}

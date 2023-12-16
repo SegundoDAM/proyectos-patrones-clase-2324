@@ -1,7 +1,0 @@
-package profesor01;
-
-import java.nio.channels.SocketChannel;
-
-public interface State {
-	SocketChannel processState();
-}

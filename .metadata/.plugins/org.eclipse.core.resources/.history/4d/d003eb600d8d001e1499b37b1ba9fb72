@@ -1,5 +1,0 @@
-
-public interface State2 {
-public void doThis();
-public void doThat();
-}

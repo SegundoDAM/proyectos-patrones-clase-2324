@@ -1,6 +1,6 @@
 package ejercicio02;
 
-public class Contrato {
+public class Contrato implements Cloneable{
 	private int id;
 	private String empresa;
 	private Persona persona;
@@ -10,6 +10,12 @@ public class Contrato {
 		this.id = id;
 		this.empresa = empresa;
 		this.persona = persona;
+	}
+	@Override
+	protected Contrato clone() throws CloneNotSupportedException {
+		Contrato clone = (Contrato) super.clone();
+		clone.persona=this.getPersona().clone();
+		return clone;
 	}
 	
 	public int getId() {

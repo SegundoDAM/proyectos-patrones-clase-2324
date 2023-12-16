@@ -12,7 +12,8 @@ public class MenorObservable extends EdadObservable {
 	@Override
 	public void aplicarEdad(int edad) {
 		if (edad == 18) {
-			pcs.firePropertyChange("Adulto", null, new Adulto());
+			pcs.firePropertyChange("Adulto", null, 
+					new CambioComportametal(new Adulto(),new AdultoObservable(this.listener)));
 		}
 
 	}

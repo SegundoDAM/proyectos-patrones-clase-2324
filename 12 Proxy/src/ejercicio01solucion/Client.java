@@ -5,7 +5,6 @@ public class Client {
 
 	public Client() {
 		super();
-
 		// hace mas cosas
 		System.out.println("carga terminada");
 	}

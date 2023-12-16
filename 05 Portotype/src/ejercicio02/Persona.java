@@ -1,7 +1,7 @@
 package ejercicio02;
 
 
-public class Persona {
+public class Persona implements Cloneable{
 	private int id;
 	private String nombre;
 
@@ -16,6 +16,10 @@ public class Persona {
 		this.setNombre(persona.nombre);
 	}
 
+	@Override
+	protected Persona clone() throws CloneNotSupportedException {
+		return (Persona) super.clone();
+	}
 	public int getId() {
 		return id;
 	}
