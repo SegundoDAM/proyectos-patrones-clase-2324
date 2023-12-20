@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ejemploPersonaje.Armadura"/>
-    <fullyQualifiedTypeName name="ejercicio03.DisparoComplejo"/>
-    <fullyQualifiedTypeName name="ejercicio03.ArmaduraSuperior"/>
-    <fullyQualifiedTypeName name="org.junit.platform.suite.api.SelectClasses"/>
-    <fullyQualifiedTypeName name="ejercicio04DataSource.DataSource"/>
-    <fullyQualifiedTypeName name="ejercicio04DataSource.FileDataSource"/>
-    <fullyQualifiedTypeName name="ejercicio04DataSource.EncryptionDecorator"/>
-    <fullyQualifiedTypeName name="ejercicio04DataSource.CompressDecorator"/>
-    <fullyQualifiedTypeName name="kata.KataStream"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="esquema00.FlyWeight"/>
-    <fullyQualifiedTypeName name="esquema00.FlyWeightFactory"/>
     <fullyQualifiedTypeName name="esquema.Command"/>
     <fullyQualifiedTypeName name="esquema.CopyCommand"/>
     <fullyQualifiedTypeName name="esquema.Invoker"/>
@@ -39,8 +27,6 @@
     <fullyQualifiedTypeName name="model.data.Adulto"/>
     <fullyQualifiedTypeName name="model.data.Menor"/>
     <fullyQualifiedTypeName name="model.data.EtapaVital"/>
-    <fullyQualifiedTypeName name="java.beans.PropertyChangeSupport"/>
-    <fullyQualifiedTypeName name="java.beans.PropertyChangeListener"/>
     <fullyQualifiedTypeName name="teoriabienparametrizada05.ConcreteProductA"/>
     <fullyQualifiedTypeName name="alternativaA.ProductoA"/>
     <fullyQualifiedTypeName name="alternativaA.Product"/>
@@ -60,4 +46,18 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="model.data.EdadObservable"/>
     <fullyQualifiedTypeName name="model.data.CambioComportametal"/>
+    <fullyQualifiedTypeName name="Adapter.AdapterPagos"/>
+    <fullyQualifiedTypeName name="modelo.Par"/>
+    <fullyQualifiedTypeName name="modelo.TipoPago"/>
+    <fullyQualifiedTypeName name="modelo.Surtidor"/>
+    <fullyQualifiedTypeName name="modelo.Caja"/>
+    <fullyQualifiedTypeName name="modelo.Repostaje"/>
+    <fullyQualifiedTypeName name="modelo.RepostajeNoTerminadoException"/>
+    <fullyQualifiedTypeName name="modelo.Combustible"/>
+    <fullyQualifiedTypeName name="Adapter.Mapper"/>
+    <fullyQualifiedTypeName name="modelo.Operacion"/>
+    <fullyQualifiedTypeName name="Adapter.DatosPago"/>
+    <fullyQualifiedTypeName name="Adapter.CajaTercerVersionAdapter"/>
+    <fullyQualifiedTypeName name="java.beans.PropertyChangeSupport"/>
+    <fullyQualifiedTypeName name="java.beans.PropertyChangeListener"/>
 </qualifiedTypeNameHistroy>
