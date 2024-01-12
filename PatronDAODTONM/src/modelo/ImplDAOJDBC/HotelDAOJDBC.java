@@ -1,4 +1,4 @@
-package modelo.ImplDAO;
+package modelo.ImplDAOJDBC;
 
 import java.util.Collection;
 

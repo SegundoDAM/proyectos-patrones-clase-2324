@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\DAM 20-21\Acceso A Datos\08 Aplicaciones WEB\02 Persistencia\proyectos\Java EE"/>
 			<item value="C:\DAM 20-21\examen2324\examDic23"/>
 			<item value="C:\DAM 20-21\examenes 2223\definitivos\patrones"/>
 			<item value="C:\DAM 20-21\Acceso A Datos\07 Patrones Diseño\proyectos clase 2324"/>

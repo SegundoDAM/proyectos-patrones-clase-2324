@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="esquema.CopyCommand"/>
-    <fullyQualifiedTypeName name="esquema.Invoker"/>
-    <fullyQualifiedTypeName name="esquema.Receiver"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool"/>
-    <fullyQualifiedTypeName name="Generator"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="intentodeprecated01.Proveedor"/>
-    <fullyQualifiedTypeName name="java.util.Observer"/>
-    <fullyQualifiedTypeName name="intentodeprecated01.Consumer"/>
-    <fullyQualifiedTypeName name="java.util.Observable"/>
     <fullyQualifiedTypeName name="java.util.concurrent.SubmissionPublisher"/>
     <fullyQualifiedTypeName name="model.Estado"/>
     <fullyQualifiedTypeName name="State"/>
@@ -60,4 +46,18 @@
     <fullyQualifiedTypeName name="java.beans.PropertyChangeSupport"/>
     <fullyQualifiedTypeName name="java.beans.PropertyChangeListener"/>
     <fullyQualifiedTypeName name="modelo.GeographicalPoint"/>
+    <fullyQualifiedTypeName name="modelo.ImplDAO.PersonaDAOJdbc"/>
+    <fullyQualifiedTypeName name="modelo.AbstractDAO.ContratoDAO"/>
+    <fullyQualifiedTypeName name="control.services.ClientesService"/>
+    <fullyQualifiedTypeName name="modelo.AbstractDAO.ReservaDAO"/>
+    <fullyQualifiedTypeName name="modelo.ImplDAO.ReservaDAOJDBC"/>
+    <fullyQualifiedTypeName name="control.services.GestionReservasService"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="mapper.PersonaAdapter"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+    <fullyQualifiedTypeName name="modelo.acceso.AccessJdbc"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
 </qualifiedTypeNameHistroy>

@@ -4,25 +4,28 @@ import java.io.Serializable;
 
 public class Persona implements Serializable {
 	private static final long serialVersionUID = 1L;
+	// esta es la clave
 	private Long id;
 	private String nombre;
 
 	public Persona() {
 		super();
 	}
-
+	
 	public Persona(Long id, String nombre) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
 	}
 
-	public Long getId() {
-		return id;
+
+	public Persona(String nombre) {
+		super();
+		this.nombre = nombre;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public Long getId() {
+		return id;
 	}
 
 	public String getNombre() {

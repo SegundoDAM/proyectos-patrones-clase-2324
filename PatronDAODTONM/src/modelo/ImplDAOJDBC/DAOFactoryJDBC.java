@@ -1,10 +1,11 @@
-package modelo.ImplDAO;
+package modelo.ImplDAOJDBC;
 
 import java.sql.SQLException;
 
 import modelo.AbstractDAO.DaoFactory;
 import modelo.AbstractDAO.HotelDAO;
 import modelo.AbstractDAO.PersonaDAO;
+import modelo.AbstractDAO.ReservaDAO;
 import modelo.acceso.AccessJdbc;
 
 public class DAOFactoryJDBC extends DaoFactory {
@@ -29,6 +30,19 @@ public class DAOFactoryJDBC extends DaoFactory {
 	@Override
 	public HotelDAO getHotelDAO() {
 		return new HotelDAOJDBC(accessJdbc);
+	}
+
+
+
+	@Override
+	public ReservaDAO getReservaDAO() {
+		return new ReservaDAOJDBC(accessJdbc);
+	}
+
+
+
+	public AccessJdbc getAccessJDBC() {
+		return accessJdbc;
 	}
 
 }

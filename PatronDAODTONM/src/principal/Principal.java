@@ -5,7 +5,7 @@ import java.util.Collection;
 import modelo.AbstractDAO.DaoFactory;
 import modelo.AbstractDAO.PersonaDAO; 
 import modelo.Entity.Persona;
-import modelo.ImplDAO.DAOFactoryJDBC;
+import modelo.ImplDAOJDBC.DAOFactoryJDBC;
 
 public class Principal {
 

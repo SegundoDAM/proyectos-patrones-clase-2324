@@ -4,5 +4,5 @@ import modelo.dto.ReservaResponseDTO;
 
 public interface GestionReservasService {
 
-	public ReservaResponseDTO getReservas(Long idPerson);
+	public ReservaResponseDTO getReservas(Long idPersona);
 }
